@@ -1,0 +1,39 @@
+body{
+    background-color:cornsilk;
+}
+
+.heading{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.container{
+    margin:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65vh;
+    font-family: sans-serif;
+    background-color: black;
+    color:white;
+    padding-left: 32px;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+.container span{
+    color: brown;
+    display: inline-flex;
+    align-items: center;
+}
+
+.container span::after{
+    content: "";
+    display: inline-block;
+    width: 3px;
+    height: 55px;
+    background-color: brown;
+    margin-left: 4px;
+}
